@@ -13,6 +13,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
+
 namespace DatingApp.API
 {
     public class Startup
@@ -29,6 +30,9 @@ namespace DatingApp.API
         {
             services.AddDbContext<DataContext>(x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
             services.AddControllers();
+            
+            
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
