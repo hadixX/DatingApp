@@ -49,3 +49,4 @@ C:\Users\HADI\Desktop\projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.0\S
 C:\Users\HADI\Desktop\projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\HADI\Desktop\projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\HADI\Desktop\projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\HADI\Desktop\projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.0\models\UserSeedData.json
