@@ -50,3 +50,6 @@ C:\Users\HADI\Desktop\projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.0\M
 C:\Users\HADI\Desktop\projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\HADI\Desktop\projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\HADI\Desktop\projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.0\models\UserSeedData.json
+C:\Users\HADI\Desktop\projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\HADI\Desktop\projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\HADI\Desktop\projects\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.0\Newtonsoft.Json.Bson.dll
