@@ -17,7 +17,7 @@ namespace DatingApp.API
     {
         public static void Main(string[] args)
         {
-            var host = CreateHostBuilder(args).Build();
+            var host =  CreateHostBuilder(args).Build();
             using(var scope = host.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
@@ -25,7 +25,7 @@ namespace DatingApp.API
                 {
                     var context = services.GetRequiredService<DataContext>();
                     context.Database.Migrate();
-                    Seed.SeedUsers(context);
+                    //Seed.SeedUsers(context);
                 }
                 catch(Exception ex)
                 {
