@@ -35,5 +35,20 @@ namespace DatingApp.API.Controllers
             var usertoreturn = _mapper.Map<UserForDetailedList>(user);
             return Ok(usertoreturn);
         }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateUser(int id,UserForUpdate userforupdate)
+        {
+            if(id != int.Parse(UserController.FindFirst(ClaimTypes.NameIdentifier).Value))
+                return Unauthorized();
+            var userFromRepo = await _repo.GetUser(id);
+
+            _mapper.Map(userforupdate,userFromRepo);
+
+            if(await _repo.SaveAll())
+                return NoContent();
+            
+            throw new System.Exception($"Updateing user {id} failed on save");
+        }
     }
 }
