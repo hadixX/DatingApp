@@ -171,3 +171,4 @@ C:\Users\HADI\Desktop\DatingApp\DatingApp.API\obj\Debug\netcoreapp3.0\DatingApp.
 C:\Users\HADI\Desktop\DatingApp\DatingApp.API\obj\Debug\netcoreapp3.0\DatingApp.API.csproj.CopyComplete
 C:\Users\HADI\Desktop\DatingApp\DatingApp.API\obj\Debug\netcoreapp3.0\DatingApp.API.dll
 C:\Users\HADI\Desktop\DatingApp\DatingApp.API\obj\Debug\netcoreapp3.0\DatingApp.API.pdb
+C:\Users\HADI\Desktop\DatingApp\DatingApp.API\bin\Debug\netcoreapp3.0\CloudinaryDotNet.dll
