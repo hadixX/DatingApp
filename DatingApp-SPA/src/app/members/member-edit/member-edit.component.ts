@@ -19,12 +19,14 @@ export class MemberEditComponent implements OnInit {
       $event.returnValue = true;
     }
   }
+  photoUrl:string;
   constructor(private route:ActivatedRoute,private alertify:AlertifyService,private userService:UserService,private authService:AuthService) { }
   user:User;
   ngOnInit() {
     this.route.data.subscribe(data =>{
       this.user = data['user']
     });
+    this.authService.currentPhotoUrl.subscribe(photoUrl => this.photoUrl = photoUrl);
   }
 
   updateUser(){
