@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
 import { ErrorIntercepterProvider } from './_services/error.intercepter';
 import { ListsComponent } from './lists/lists.component';
+import { TimeagoModule } from 'ngx-timeago';
 import { MemberListComponent } from './members/member-list/member-list.component';
 import { MessagesComponent } from './messages/messages.component';
 import { RouterModule } from '@angular/router';
@@ -51,6 +52,7 @@ export function tokenGetter(){
       FormsModule,
       ReactiveFormsModule,
       BrowserAnimationsModule,
+      TimeagoModule.forRoot(),
       HttpClientModule,
       NgxGalleryModule,
       BsDropdownModule.forRoot(),
