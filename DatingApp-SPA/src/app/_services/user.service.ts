@@ -21,11 +21,11 @@ export class UserService {
     let params = new HttpParams();
 
     if(page != null && itemsPerPage != null){
-      params.append('pageNumber',page);
-      params.append('pageSize',itemsPerPage);
+     params = params.append('pageNumber',page);
+      params = params.append('pageSize',itemsPerPage);
     }
-    console.log(params.toString());
-    return this.http.get<User[]>(this.baseUrl + 'user',{ observe: 'response', params }).pipe(
+    
+    return this.http.get<User[]>(this.baseUrl + 'user',{ observe: 'response', params}).pipe(
       map(response =>{
         paginatedResult.result = response.body;
         if(response.headers.get('Pagination') != null){
