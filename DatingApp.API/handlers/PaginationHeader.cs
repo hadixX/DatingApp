@@ -13,7 +13,7 @@ namespace DatingApp.API.handlers
         public int CurrentPage { get; set; }
         public int ItemPerPage { get; set; }
         public int TotalItem { get; set; }
-        public int TotalPage { get; set; }
+        public int TotalPage { get; set; }/**/
 
     }
 }
